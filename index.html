@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>業務日付管理アプリ</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class='input-area'>
+            <span>計算基準日</span>
+            <input id='basedate' type="text" placeholder='yyyy/mm/dd'>
+            <input id='days' type="text" placeholder='1'>
+            <span>日後</span>
+            <div id='btn' class='disabled'>計算</div>
+        </div>
+        <div class="result-area">
+            <p id="result"></p>
+            <!-- <div id="reset" class="hidden">もう一度計算します。</div> -->
+        </div>
+    </div>
+    <script src='js/main.js'></script>
+</body>
+</html>
